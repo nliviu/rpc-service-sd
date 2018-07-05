@@ -1,0 +1,25 @@
+author: Liviu Nicolescu <nliviu@gmail.com>
+description: RPC Service SD
+version: 1.0.0
+
+manifest_version: 2017-09-29
+
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
+
+tags:
+  - c
+
+platform: esp32
+
+sources:
+  - src
+
+config_schema:
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/rpc-common
+  - origin: https://github.com/nliviu/sdlib
+  
+
